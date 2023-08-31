@@ -17,8 +17,15 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
+	implementation("org.springframework.boot:spring-boot-starter-jdbc")
+	implementation("org.springframework.boot:spring-boot-starter-rsocket")
+	
+	runtimeOnly("org.postgresql:postgresql")
+	
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
+	
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("io.projectreactor:reactor-test")
 }
 
 tasks.withType<Test> {
