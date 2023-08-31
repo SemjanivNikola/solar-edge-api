@@ -19,6 +19,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
 	implementation("org.springframework.boot:spring-boot-starter-jdbc")
 	implementation("org.springframework.boot:spring-boot-starter-rsocket")
+	implementation("org.flywaydb:flyway-core")
 	
 	runtimeOnly("org.postgresql:postgresql")
 	
