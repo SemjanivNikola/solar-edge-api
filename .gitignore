@@ -31,4 +31,4 @@ tmp/
 .factorypath
 
 # env
-!application-dev.properties
+application-dev.properties
