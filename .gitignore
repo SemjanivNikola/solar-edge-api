@@ -27,6 +27,8 @@ tmp/
 *.bak
 *.swp
 *~.nib
-application-dev.properties
 .loadpath
 .factorypath
+
+# env
+application-dev.properties
